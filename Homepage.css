@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+#nho{
+    text-align: center;
+}
+#detail{
+    display:none;
+}
+.carousel-item{
+    height: 100%;
+}
+.but2{
+    margin-top: 4.5%;
+}
+.giohang{
+    margin-top: 1%;
+}
+.icon1{
+    font-size: 25px;
+    color: black;
+}
+#login, #matkhau{
+    margin-left: 22px;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.but3{
+    margin-left: 174px;
+    width: 150px;
+height: 40px;
+}
+#a1{margin-bottom: 15px;}
+.listmenu{
+    background-color: brown;
+}
+.list-group-item{
+    cursor: pointer;
+}
+.list-group-item:hover{
+    background-color: burlywood;
+}
+#img1{
+    max-width: 100%;
+    border-radius:5%;
+    height: 150%;
+}
+.card-title{
+    height: 40px;
+}
+#cart{
+    width: 170px;
+    margin-left: 5px;
+}
+.box:hover{
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.footer{background-color: #EFEFEF;}
+.foot{margin-top: 10px;
+font-size: 18px;}
+#hr{
+    height: 10px;
+    background-color: black;
+}
+#userName,#detailuser,#logout{
+    cursor: pointer;
+
+}
+#detailuser:hover{
+    color: red;
+}
+#logout:hover{
+    color: red;
+}
+#exampleModal2{
+ width: 15%;
+ margin-top: 12%;
+ margin-left: 60%;
+}
+.vmodal{
+    text-align: center;
+}
+#exampleModal1{
+    width: 40%;
+    margin-left:29%;
+    margin-top: 10%;
+}
+.update{
+    width: 20%;
+    margin-left: 40%;
+}
+#exampleModal4{
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 40%;
+}
+.vvmodal{
+    height: 300px;
+}
+#emailll{
+    margin-top: 10%;
+}
+.quenmatkhau{
+    cursor: pointer;
+}

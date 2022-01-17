@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.0/LineIcons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="form_DK.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+       
+        <div class="form">
+            <h2 class="mb-4">Đăng ký tài khoản</h2>
+            <fieldset class="form-group">
+                <label>Họ và Tên *
+                </label>
+                <input type="text" class="form-control form-control-lg" value name="firstName" id="firstName" placeholder="Họ và tên " required>
+                <label>Số điện thoại *
+                </label>
+                <input type="text" class="form-control form-control-lg" value name="firstName" id="phone" placeholder="Số điện thoại " required>
+                <label>Địa chỉ *
+                </label>
+                <input type="text" class="form-control form-control-lg" value name="firstName" id="adress" placeholder="Địa chỉ " required>
+                <label>Email *
+                </label>
+                <input type="text" class="form-control form-control-lg" value name="firstName" id="email" placeholder="Email " required>
+                <label>Tên đăng nhập*
+                </label>
+                <input type="text" class="form-control form-control-lg" value name="firstName" id="account" placeholder="Tên đăng nhập " required>
+
+                <label>Mật khẩu *
+                </label>
+                <input type="password" class="form-control form-control-lg" value name="firstName" id="password" placeholder="Mật khẩu " required>
+                <p id="canhbao" style="color: red;"></p>
+            </fieldset>
+            <div class="text-center">
+                <button class="btn btn-danger" type="submit" value="Đăng ký" onclick="addData()">Đăng ký</button>
+                <button class="btn btn-danger "  onclick="reset()">Reset</button>
+                <button class="btn btn-danger "><a href="./Homepage.html" style="color: white; text-decoration: none;">Đăng Nhập</a></button>
+
+
+                <div class="block social-login--facebooks">
+                    <p class="a-center">
+                        <span>Hoặc đăng nhập bằng</span></p>
+
+        </div>
+                </div>
+                <a href="https://www.facebook.com/" class="social-login--facebook" onclick="loginFacebook()"><img width="129px" height="37px" alt="facebook-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg"></a>
+                <a href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp" class="social-login--google" onclick="loginGoogle()"><img width="129px" height="37px" alt="google-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg"></a>
+            </div>
+       
+</body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_jNGvi2ioKOOFOEhUdiVnd");
+})();
+</script>
+<script src="./form_DK.js"></script>
+</html>

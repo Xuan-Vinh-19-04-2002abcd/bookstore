@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+#kichthuoc{
+    max-width: 100px;
+}
+.pag3,.pag4{
+    display: none;
+}
+.cart1{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}.title{
+    background-color: #E06666;
+    color: white;
+}
+.btn1{
+    width: 200px;
+    height: 40px;
+    background-color: #E06666;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}.btn1 a{
+    color: white;
+
+}
+.del{background-color: white;
+color: black;
+border: 1px solid black;
+border-radius: 5px;}
+#btn3,#btn5{
+    Background-color:#E06666;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #E06666;
+}
+.title2{
+    font-weight: bold;
+    color: black;
+}
+.bill{
+    background-color: #bbf4f5;
+}
+.content{color: black;}
+.but1{
+    margin-left: 5px;
+    background-color:#E06666;
+    color: white;
+}
+#btn5{
+    margin-top: 5%;
+}
